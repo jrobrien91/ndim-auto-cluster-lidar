@@ -1,0 +1,29 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: N-Dimensional Auto-Clustering of Lidar Measurements to define Defacto Aerosol Types
+  description: 2026 ARM Big Open Data Summer School Project
+  github: https://github.com/ARM-Synergy/ndim-auto-cluster-lidar/
+  # keywords: []
+  authors:
+    - name: Zohear Al Mahatab
+      orcid: 0009-0002-7575-1653
+    - name: Bhupendra Raut
+      orcid: 0000-0001-5598-1393
+    - name: Connor Flynn
+      orcid: 0000-0002-9182-6531
+    - name: Robert Jackson
+      orcid: 0000-0003-2518-1234
+    - name: Joe O'Brien
+      orcid: 0000-0003-4655-6912
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: README.md
+    - title: Project Development
+      children:
+        - file: notebooks/hsrl_analysis.ipynb
+site:
+  options:
+    logo: notebooks/images/arm_logo.png
+    footer_logos:
+        ARM: notebooks/images/arm_logo.png
